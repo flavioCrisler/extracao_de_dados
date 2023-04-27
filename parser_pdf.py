@@ -2,7 +2,7 @@ import pdfplumber
 import openpyxl as xl
 import os
 
-for arquivo in os.listdir(r"C:\Users\fcris\OneDrive\Documentos\PYTHON\python_aplicado\projeto03\pdf"):
+for arquivo in os.listdir("pdf"):
     
     if arquivo.lower().endswith(".pdf"):
         try:
